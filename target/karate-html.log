@@ -1,139 +1,35 @@
-22:33:27.977 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
-22:33:28.373 request:
-1 > POST https://www.processon.com/folder/loadfiles/
-1 > Accept: */*
-1 > Accept-Encoding: gzip,deflate,br
+23:27:40.487 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+23:27:40.847 request:
+1 > POST https://www.processon.com/folder/loadfiles
+1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Content-Length: 22
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: www.processon.com
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_321)
-1 > _sid: JSESSIONID=e13e5e699351934d59e70402f1bacd75
-1 > cookie: JSESSIONID=77899733910C1D45FB4ABE715BA5A5FD.jvm1
-1 > processon_userKey: 5b337131e4b045a5a3089a1e
+1 > cookie: JSESSIONID=86F4DACFA43E4B3620B823641E883F57.jvm1
 {"resource":"history"}
 
-22:33:28.726 response time in milliseconds: 353
-1 < 303
+23:27:41.300 response time in milliseconds: 452
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0
 1 < Connection: keep-alive
 1 < Content-Language: zh-CN
-1 < Content-Length: 0
-1 < Content-Type: application/octet-stream
-1 < Date: Wed, 16 Feb 2022 14:33:28 GMT
-1 < EagleId: ddb5cc9816450220087927750e
-1 < Location: /
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Wed, 16 Feb 2022 15:27:41 GMT
+1 < EagleId: 0884329a16450252613937267e
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Pragma: no-cache
 1 < Server: Tengine
-1 < Set-Cookie: JSESSIONID=94CA0C24CEEE42F06B861080D90E65B3.jvm1; Domain=.processon.com; Path=/; HttpOnly
 1 < Timing-Allow-Origin: *
-1 < Via: cache3.l2cm12-6[17,0], cache4.cn572[62,0]
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: cache2.l2cm12-6[20,0], cache14.cn4056[96,0]
+{"result":"success","charts":[{"chartId":"60bd99e1e401fd34a1442a89","title":"未命名文件","definitionId":"60bd99e1e401fd34a1442a8a","definitionText":null,"owner":{"userId":"5b337131e4b045a5a3089a1e","userName":"5b337131e4b045a5a3089a1d","fullName":"老妇人这都有人用"},"description":"","category":"flow","industry":null,"rateAvg":0.0,"rateCount":0,"viewCount":0,"shareCount":0,"commentCount":0,"favouriteCount":0,"createTime":"2021-06-07 12:00:33","lastModify":"2021-10-26 17:29:09","thumbnail":"60bd99e2e401fd34a1442a8b","thumbUrl":"","imgOriginal":null,"imagePropertity":null,"ratedLevel1Count":0,"ratedLevel2Count":0,"ratedLevel3Count":0,"ratedLevel4Count":0,"ratedLevel5Count":0,"shapeCount":0,"status":"private","folderId":"root","language":null,"version":874,"tags":null,"deleteTime":null,"collaboration":null,"attribute":null,"activeTime":null,"publishTime":null,"teamId":null,"publicEdit":false,"publicClone":false,"schema":["basic","flow","lane"],"viewLinkId":null,"viewPassword":null,"cloneId":null,"cloneTime":null,"weight":0,"newCreate":false,"likeCount":0,"publicClonePrice":0.0,"cloneCount":0,"verifyTime":null,"corpid":null,"sortNum":0.0,"orgId":null,"collaRole":null,"themeTags":null,"sourceName":null,"specialIds":null,"maintainTags":null,"deleted":false,"belongtoTeam":false,"talent":false,"openColla":false,"trashRoot":false,"openLinkColla":false,"template":false},{"chartId":"6084e1fde401fd45d70a3abe","title":"物料功能结构图","definitionId":"6084e1fde401fd45d70a3ac0","definitionText":null,"owner":{"userId":"5b337131e4b045a5a3089a1e","userName":"5b337131e4b045a5a3089a1d","fullName":"老妇人这都有人用"},"description":"","category":"flow","industry":null,"rateAvg":0.0,"rateCount":0,"viewCount":0,"shareCount":0,"commentCount":0,"favouriteCount":0,"createTime":"2021-04-25 11:29:01","lastModify":"2021-06-07 12:00:29","thumbnail":"6084e1fde401fd45d70a3ac2","thumbUrl":"","imgOriginal":null,"imagePropertity":null,"ratedLevel1Count":0,"ratedLevel2Count":0,"ratedLevel3Count":0,"ratedLevel4Count":0,"ratedLevel5Count":0,"shapeCount":0,"status":"private","folderId":"root","language":null,"version":416,"tags":null,"deleteTime":null,"collaboration":null,"attribute":null,"activeTime":null,"publishTime":null,"teamId":null,"publicEdit":false,"publicClone":false,"schema":["basic","flow","lane"],"viewLinkId":null,"viewPassword":null,"cloneId":null,"cloneTime":null,"weight":0,"newCreate":false,"likeCount":0,"publicClonePrice":0.0,"cloneCount":0,"verifyTime":null,"corpid":null,"sortNum":0.0,"orgId":null,"collaRole":null,"themeTags":null,"sourceName":null,"specialIds":null,"maintainTags":null,"deleted":false,"belongtoTeam":false,"talent":false,"openColla":false,"trashRoot":false,"openLinkColla":false,"template":false},{"chartId":"60965c551e08533e428d9f26","title":"未命名文件","definitionId":"60965c551e08533e428d9f27","definitionText":null,"owner":{"userId":"5b337131e4b045a5a3089a1e","userName":"5b337131e4b045a5a3089a1d","fullName":"老妇人这都有人用"},"description":"","category":"flow","industry":null,"rateAvg":0.0,"rateCount":0,"viewCount":0,"shareCount":0,"commentCount":0,"favouriteCount":0,"createTime":"2021-05-08 17:39:33","lastModify":"2021-05-12 18:02:29","thumbnail":"60965c551e08533e428d9f28","thumbUrl":"","imgOriginal":null,"imagePropertity":null,"ratedLevel1Count":0,"ratedLevel2Count":0,"ratedLevel3Count":0,"ratedLevel4Count":0,"ratedLevel5Count":0,"shapeCount":0,"status":"private","folderId":"root","language":null,"version":325,"tags":null,"deleteTime":null,"collaboration":null,"attribute":null,"activeTime":null,"publishTime":null,"teamId":null,"publicEdit":false,"publicClone":false,"schema":["basic","flow","lane"],"viewLinkId":null,"viewPassword":null,"cloneId":null,"cloneTime":null,"weight":0,"newCreate":false,"likeCount":0,"publicClonePrice":0.0,"cloneCount":0,"verifyTime":null,"corpid":null,"sortNum":0.0,"orgId":null,"collaRole":null,"themeTags":null,"sourceName":null,"specialIds":null,"maintainTags":null,"deleted":false,"belongtoTeam":false,"talent":false,"openColla":false,"trashRoot":false,"openLinkColla":false,"template":false}],"sort":"title","folders":[],"dir":[],"userView":"icon"}
 
-22:33:28.728 request:
-2 > GET https://www.processon.com/folder/loadfiles/
-2 > Accept: */*
-2 > Accept-Encoding: gzip,deflate,br
-2 > Connection: Keep-Alive
-2 > Content-Type: application/json; charset=UTF-8
-2 > Cookie: [JSESSIONID=77899733910C1D45FB4ABE715BA5A5FD.jvm1, JSESSIONID=94CA0C24CEEE42F06B861080D90E65B3.jvm1]
-2 > Host: www.processon.com
-2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_321)
-2 > _sid: JSESSIONID=e13e5e699351934d59e70402f1bacd75
-2 > cookie: [JSESSIONID=77899733910C1D45FB4ABE715BA5A5FD.jvm1, JSESSIONID=94CA0C24CEEE42F06B861080D90E65B3.jvm1]
-2 > processon_userKey: 5b337131e4b045a5a3089a1e
-
-22:33:28.885 response time in milliseconds: 115
-2 < 200
-2 < Connection: keep-alive
-2 < Content-Type: text/html;charset=UTF-8
-2 < Date: Wed, 16 Feb 2022 14:33:28 GMT
-2 < EagleId: ddb5cc9816450220089018470e
-2 < Server: Tengine
-2 < Timing-Allow-Origin: *
-2 < Transfer-Encoding: chunked
-2 < Vary: [Accept-Encoding, Accept-Encoding]
-2 < Via: cache4.l2cm12-6[22,0], cache4.cn572[71,0]
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="renderer" content="webkit">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<title>ProcessOn - 免费在线作图，思维导图，流程图，实时协作</title>
-<meta name="keywords" content="思维导图,流程图,免费在线作图工具,在线流程图,在线思维导图,组织结构图,网络拓扑图,UML作图,UI界面原型设计,iOS原型设计,BPMN,多人协作绘图">
-<meta name="description" content="ProcessOn是一个在线协作绘图平台，为用户提供强大、易用的作图工具！支持在线创作流程图、思维导图、组织结构图、网络拓扑图、BPMN、UML图、UI界面原型设计、iOS界面原型设计等。同时依托于互联网实现了人与人之间的实时协作和共享。">
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="stylesheet" href="/assets/css/global-ecd70639.css" type="text/css" />
-<link rel="stylesheet" href="/assets/css/tour-ecd70639.css" type="text/css"/>
-<script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-<script>
-var user = "";
-var imagePath = "";
-</script>
-</head>
-<body>
-<div id="banner">
-<div class="banner_list"></div>
-<div class="banner_left icons">&#xe7c5;</div>
-<div class="banner_right icons">&#xe7c5;</div>
-<div class="banner_dots"></div>
-</div>
-<div id="banner_2">
-<a target="_blank"><img/></a>
-<span class="close"><b class="icons">&#xe637;</b></span>
-</div>
-<div style="position: relative;">
-<header>
-<div class="n_page_con_center">
-<a href="/diagrams"><img alt="免费在线作图，思维导图，流程图，实时协作" class="logo" src="/assets/imgs/logo_small.gif" style="width:160px;left:-5px"/></a>
-<div class="collapse-btn"><span class="icons" style="font-size: 21px;">&#xe612;</span></div>
-<div class="tabs">
-<div class="tab">
-<a onmousedown="sessionStorage.setItem('ur_resource', 'po_home')" href="/ac/201111?from=tourTop" target="_blank" style="margin-right: 30px;" class="ac-menu"></a>
-</div>
-<div class="tab">
-<a onmousedown="sessionStorage.setItem('ur_resource', 'po_home')" href="/popular">推荐</a>
-</div>
-<div class="tab circulationBox">
-<a onmousedown="sessionStorage.setItem('ur_resource', 'po_home')" href="/diagrams/new">
-<div style="width: 100%;height: 100%;overflow: hidden;position: relative;">
-<div class="circulation">
-<div>模板</div>
-<div first="模板">赢iPad</div>
-</div>
-</div>
-<div class="bubbleBox">
-<div class="bubble">
-<a href="/ac/210624">
-<div class="blue">赢万元大奖</div>
-</a>
-<a href="/ac/2021618">
-<div class="green">清空购物车</div>
-</a>
-<a href="/ac/210624">
-<div class="blue">赢万元大奖</div>
-</a>
-</div>
-</div>
-</a>
-</div>
-<div class="tab" style="margin-left: 0px; margin-right: 50px;">
-<a onmousedown="sessionStorage.setItem('ur_resource', 'po_home')" href="/upgrade?pos=1_1">价格</a>
-</div>
-<div class="tab" style="margin-left: 0px;">
-<a href="/support">入门教程</a>
-</div>
-<div class="tab iphone_max_500">
-<a href="/login?f=index" class="button login_btn"><span>登录</span></a>
-</div>
-<div class="tab iphone_max_500">
-<a href="/login?f=index" class="button"><span>免费使用</span></a>
-</div>
-</div>
-<div class="log_box">
-<a href="/login?f=index" class="button login_btn"><span>登录</span></a>
-<a href="/signup?f=index" class="button"><span>免费注册</span></a>
-</div>
+27:22.500 assertion failed: path: $[0].result, actual: null, expected: 'success', reason: actual json-path does not exist
+xist
+v>
 </div>
 </header>
 <section class="n_page_con mind_map">
@@ -737,8 +633,8 @@ poCollect('访问官网首页',{});
 </html>
 
 
-22:33:28.892 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 3; 元素类型 "link" 必须由匹配的结束标记 "</link>" 终止。
-22:33:28.900 assertion failed: path: $[0].result, actual: '
+23:25:26.220 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 3; 元素类型 "link" 必须由匹配的结束标记 "</link>" 终止。
+23:25:26.225 assertion failed: path: $[0].result, actual: '
 <!DOCTYPE html>
 <html>
 <head>
@@ -1423,5 +1319,15 @@ poCollect('访问官网首页',{});
 </body>
 </html>
 ', expected: 'success', reason: not equal
+poCollect("常规拉新活动_免费扩容_按钮点击",{"用户属性":"游客"})
+}
+})
+}
+poCollect('访问官网首页',{});
+</script>
+</body>
+</html>
+', expected: 'success', reason: not equal
+, expected: 'success', reason: not equal
 
 l
