@@ -11,8 +11,8 @@ Feature:processon
   #2如何调用java代码
   Scenario: login
     Given path '/login/quick_login'
-#    And request {type: account_login,login_email: 2445384234@qq.com, login_password: 1373113aaa}
-    And form fields { type: 'account_login', login_email: '2445384234@qq.com', login_password: '1373113aaa'}
+#    And request {type: account_login,login_email: 2445384234@qq.com, login_password: }
+    And form fields { type: 'account_login', login_email: '2445384234@qq.com', login_password: ''}
     When method post
     Then status 200
     And match $.result == 'success'
