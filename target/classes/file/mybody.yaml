@@ -1,0 +1,8 @@
+new_resource:
+  'history'
+myage:
+  10
+list_:
+  - 'apple'
+  - 'bannan'
+  - 'organ'

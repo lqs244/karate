@@ -1,0 +1,58 @@
+01:39:13.609 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+01:39:14.084 request:
+1 > POST https://www.processon.com/login/quick_login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 76
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.processon.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_321)
+type=account_login&login_email=2445384234%40qq.com&login_password=1373113aaa
+
+01:39:14.354 response time in milliseconds: 270
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0
+1 < Connection: keep-alive
+1 < Content-Language: zh-CN
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 18 Feb 2022 17:39:15 GMT
+1 < EagleId: 0884323016452059557917425e
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Pragma: no-cache
+1 < Server: Tengine
+1 < Set-Cookie: [JSESSIONID=63DE01A3558B0F89CEC91F0C20945978.jvm1; Domain=.processon.com; Path=/; HttpOnly, processon_userKey=5b337131e4b045a5a3089a1e; Domain=.processon.com; Expires=Tue, 19-Apr-2022 17:39:15 GMT; Path=/, _sid=e13e5e699351934d59e70402f1bacd75; Domain=.processon.com; Expires=Tue, 19-Apr-2022 17:39:15 GMT; Path=/]
+1 < Timing-Allow-Origin: *
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: cache11.l2cm12-6[33,0], cache38.cn4055[99,0]
+{"result":"success","back":"redirect:/diagrams"}
+
+01:39:14.370 skipping bootstrap configuration: could not find or read file: karate-config.js, prefix: CLASSPATH
+01:39:14.374 request:
+1 > POST https://www.processon.com/folder/loadfiles
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: JSESSIONID=DB57A05C8C9764ED7BE9A361BF93B958.jvm1
+1 > Host: www.processon.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_321)
+{"resource":"history"}
+
+01:39:14.563 response time in milliseconds: 189
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0
+1 < Connection: keep-alive
+1 < Content-Language: zh-CN
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Fri, 18 Feb 2022 17:39:16 GMT
+1 < EagleId: 0884322316452059559906556e
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Pragma: no-cache
+1 < Server: Tengine
+1 < Timing-Allow-Origin: *
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: cache28.l2cm12-6[46,0], cache25.cn4055[116,0]
+{"result":"success","charts":[{"chartId":"60bd99e1e401fd34a1442a89","title":"未命名文件","definitionId":"60bd99e1e401fd34a1442a8a","definitionText":null,"owner":{"userId":"5b337131e4b045a5a3089a1e","userName":"5b337131e4b045a5a3089a1d","fullName":"老妇人这都有人用"},"description":"","category":"flow","industry":null,"rateAvg":0.0,"rateCount":0,"viewCount":0,"shareCount":0,"commentCount":0,"favouriteCount":0,"createTime":"2021-06-07 12:00:33","lastModify":"2021-10-26 17:29:09","thumbnail":"60bd99e2e401fd34a1442a8b","thumbUrl":"","imgOriginal":null,"imagePropertity":null,"ratedLevel1Count":0,"ratedLevel2Count":0,"ratedLevel3Count":0,"ratedLevel4Count":0,"ratedLevel5Count":0,"shapeCount":0,"status":"private","folderId":"root","language":null,"version":874,"tags":null,"deleteTime":null,"collaboration":null,"attribute":null,"activeTime":null,"publishTime":null,"teamId":null,"publicEdit":false,"publicClone":false,"schema":["basic","flow","lane"],"viewLinkId":null,"viewPassword":null,"cloneId":null,"cloneTime":null,"weight":0,"newCreate":false,"likeCount":0,"publicClonePrice":0.0,"cloneCount":0,"verifyTime":null,"corpid":null,"sortNum":0.0,"orgId":null,"collaRole":null,"themeTags":null,"sourceName":null,"specialIds":null,"maintainTags":null,"template":false,"belongtoTeam":false,"deleted":false,"talent":false,"openColla":false,"trashRoot":false,"openLinkColla":false},{"chartId":"6084e1fde401fd45d70a3abe","title":"物料功能结构图","definitionId":"6084e1fde401fd45d70a3ac0","definitionText":null,"owner":{"userId":"5b337131e4b045a5a3089a1e","userName":"5b337131e4b045a5a3089a1d","fullName":"老妇人这都有人用"},"description":"","category":"flow","industry":null,"rateAvg":0.0,"rateCount":0,"viewCount":0,"shareCount":0,"commentCount":0,"favouriteCount":0,"createTime":"2021-04-25 11:29:01","lastModify":"2021-06-07 12:00:29","thumbnail":"6084e1fde401fd45d70a3ac2","thumbUrl":"","imgOriginal":null,"imagePropertity":null,"ratedLevel1Count":0,"ratedLevel2Count":0,"ratedLevel3Count":0,"ratedLevel4Count":0,"ratedLevel5Count":0,"shapeCount":0,"status":"private","folderId":"root","language":null,"version":416,"tags":null,"deleteTime":null,"collaboration":null,"attribute":null,"activeTime":null,"publishTime":null,"teamId":null,"publicEdit":false,"publicClone":false,"schema":["basic","flow","lane"],"viewLinkId":null,"viewPassword":null,"cloneId":null,"cloneTime":null,"weight":0,"newCreate":false,"likeCount":0,"publicClonePrice":0.0,"cloneCount":0,"verifyTime":null,"corpid":null,"sortNum":0.0,"orgId":null,"collaRole":null,"themeTags":null,"sourceName":null,"specialIds":null,"maintainTags":null,"template":false,"belongtoTeam":false,"deleted":false,"talent":false,"openColla":false,"trashRoot":false,"openLinkColla":false},{"chartId":"60965c551e08533e428d9f26","title":"未命名文件","definitionId":"60965c551e08533e428d9f27","definitionText":null,"owner":{"userId":"5b337131e4b045a5a3089a1e","userName":"5b337131e4b045a5a3089a1d","fullName":"老妇人这都有人用"},"description":"","category":"flow","industry":null,"rateAvg":0.0,"rateCount":0,"viewCount":0,"shareCount":0,"commentCount":0,"favouriteCount":0,"createTime":"2021-05-08 17:39:33","lastModify":"2021-05-12 18:02:29","thumbnail":"60965c551e08533e428d9f28","thumbUrl":"","imgOriginal":null,"imagePropertity":null,"ratedLevel1Count":0,"ratedLevel2Count":0,"ratedLevel3Count":0,"ratedLevel4Count":0,"ratedLevel5Count":0,"shapeCount":0,"status":"private","folderId":"root","language":null,"version":325,"tags":null,"deleteTime":null,"collaboration":null,"attribute":null,"activeTime":null,"publishTime":null,"teamId":null,"publicEdit":false,"publicClone":false,"schema":["basic","flow","lane"],"viewLinkId":null,"viewPassword":null,"cloneId":null,"cloneTime":null,"weight":0,"newCreate":false,"likeCount":0,"publicClonePrice":0.0,"cloneCount":0,"verifyTime":null,"corpid":null,"sortNum":0.0,"orgId":null,"collaRole":null,"themeTags":null,"sourceName":null,"specialIds":null,"maintainTags":null,"template":false,"belongtoTeam":false,"deleted":false,"talent":false,"openColla":false,"trashRoot":false,"openLinkColla":false}],"sort":"title","folders":[],"dir":[],"userView":"icon"}
+
